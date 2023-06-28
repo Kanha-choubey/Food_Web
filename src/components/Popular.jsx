@@ -6,42 +6,47 @@ const Popular = () => {
   const data = [
     {
       id: crypto.randomUUID(),
-      image: "./src/assets/images/p-1.jpg",
+      image:
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Hamburger_%28black_bg%29.jpg/640px-Hamburger_%28black_bg%29.jpg",
       title: "Tasty Burger",
       price: 30,
       count: 1,
     },
     {
       id: crypto.randomUUID(),
-      image: "./src/assets/images/p-2.jpg",
+      image:
+        "https://content3.jdmagicbox.com/comp/bhopal/h1/0755px755.x755.191120024541.f1h1/catalogue/vini-s-tasty-cakes-ayodhya-nagar-bhopal-bakeries-5km18iz8o3.jpg",
       title: "Tasty cake",
       price: 20,
       count: 1,
     },
     {
       id: crypto.randomUUID(),
-      image: "./src/assets/images/p-3.jpg",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP5PtrNkshwbgEW6CrcBQlqctMPJpckCZjKw&usqp=CAU",
       title: "Tasty Snaks",
       price: 25,
       count: 1,
     },
     {
       id: crypto.randomUUID(),
-      image: "./src/assets/images/p-4.jpg",
+      image: "https://i.ytimg.com/vi/xrFZd54VFNE/maxresdefault.jpg",
       price: 19,
       title: "Tasty Cupckae",
       count: 1,
     },
     {
       id: crypto.randomUUID(),
-      image: "./src/assets/images/p-5.jpg",
+      image:
+        "https://www.cubesnjuliennes.com/wp-content/uploads/2022/07/Mango-Juice-Recipe.jpg",
       title: "Mango Juice",
       price: 20,
       count: 1,
     },
     {
       id: crypto.randomUUID(),
-      image: "./src/assets/images/p-6.jpg",
+      image:
+        "https://cdn.britannica.com/50/80550-050-5D392AC7/Scoops-kinds-ice-cream.jpg",
       title: "Ice-cream",
       price: 10,
       count: 1,

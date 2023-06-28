@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
 
         <h1 className="credit">
-          created by <span>Ritika Sharma </span> | All rights reserved
+          created by <span>Lucifer Morning Star </span> | All rights reserved
         </h1>
       </section>
       <a href="#home" className="fas fa-angle-up" id="scroll-top"></a>
