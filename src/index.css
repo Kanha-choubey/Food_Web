@@ -5,6 +5,7 @@
 }
 
 * {
+
   font-family: "Nunito", sans-serif;
   margin: 0;
   padding: 0;
@@ -71,7 +72,7 @@ section {
   width: 0%;
   height: 100%;
   background: var(--red);
-  transition: 0.3s linear;
+  transition: 0.5s linear;
   z-index: -1;
 }
 
@@ -85,7 +86,7 @@ section {
 .btn:hover {
   color: #fff;
 }
-
+/* Navbar */
 header {
   top: 0;
   left: 0;
@@ -138,6 +139,7 @@ header .navbar a:focus{
   display: none;
 }
 
+/* HeroSection */
 .home {
   display: flex;
   flex-wrap: wrap;
@@ -217,10 +219,11 @@ header .navbar a:focus{
   }
 
   50% {
-    transform: translateY(3rem);
+    transform: translateY(5rem);
   }
 }
 
+/* Speciality */
 .speciality .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -274,6 +277,8 @@ header .navbar a:focus{
 .speciality .box-container .box:hover .content {
   transform: translateY(100%);
 }
+
+/* Popular */
 
 .popular{
   display: flex;
@@ -330,6 +335,7 @@ header .navbar a:focus{
   font-size: 1.7rem;
   padding: 1rem 0.1rem;
 }
+/* Steps */
 
 .steps {
   display: flex;
@@ -355,6 +361,7 @@ header .navbar a:focus{
   color: #333;
   padding: 1rem;
 }
+/* Gallery */
 
 .gallery .box-container {
   display: flex;
@@ -405,6 +412,8 @@ header .navbar a:focus{
   top: 0;
 }
 
+/* Review */
+
 .review .box-container {
   display: flex;
   flex-wrap: wrap;
@@ -448,6 +457,7 @@ header .navbar a:focus{
   color: #fff;
   padding: 1rem 0;
 }
+/* OrderSection */
 
 .order .row {
   padding: 2rem;
@@ -507,6 +517,7 @@ header .navbar a:focus{
   background: var(--red);
 }
 
+/* Footer */
 .footer {
   background: #000;
   text-align: center;
